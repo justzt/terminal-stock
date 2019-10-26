@@ -6,7 +6,10 @@ class bcolors:
     RED = '\033[91m'
     WHITE = '\033[97m'
 #     BLACK = '\033[m'
+    BLUE = '\033[5;37;34m'
+    MAGENTA = '\033[35m'
     ENDC = '\033[0m'
+    BLACK = '\033[30m'
 
     def disable(self):
         self.HEADER = ''
